@@ -1,3 +1,7 @@
 # Node
 npm-debug.log
 /node_modules
+
+# Phonegap
+/platforms
+/plugins
