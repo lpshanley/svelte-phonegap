@@ -1,5 +1,5 @@
+# Svelte
 .DS_Store
-node_modules
 www/bundle.*
 
 # Mac
