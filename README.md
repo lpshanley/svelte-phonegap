@@ -28,7 +28,7 @@ npm install
 npm run dev
 ```
 
-**NOTE** The first time you run `npm run dev` will take MUCH longer than any subsequent runs. Phonegap-cli needs to create the `\platforms` and `\plugins` directories in your project. You will know that your project is ready once you start see a load of output from your console. Note that this can take 5-10 minutes depending on your PC and connection speed.
+**NOTE** The first time you run `npm run dev` will take MUCH longer than any subsequent runs. Phonegap-cli needs to create the `\platforms` and `\plugins` directories in your project. You will know that your project is ready once you start see a load of output from your console. Note that this can take 5-10 minutes depending on your PC and connection speed. On the first run you will see phonegap put out an error that says `The "path" argument must the of type string....` ignore this as this is because the project is still building the `platforms` and `plugins` just allow it time to build. 
 
 Navigate to [localhost:3000](http://localhost:3000). You should see your app running. Edit a component file in `src`, save it, and watch your changes update automatically.
 
