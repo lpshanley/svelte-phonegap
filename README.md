@@ -1,22 +1,34 @@
-# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+# "hello phonegap" svelte template
 
-A PhoneGap Hello World template
+A combination of the phonegap Hello World template and svelte templates
 
-## Usage
+This is a project template for [Svelte](https://svelte.dev) apps using [Phonegap](https://phonegap.com/) It lives at https://github.com/lpshanley/svelte-phonegap.
 
-#### PhoneGap CLI
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
-The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
+```bash
+npx degit lpshanley/svelte-phonegap svelte-phonegap
+cd svelte-phonegap
+```
 
-    phonegap create my-app
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-Create an app using this template specifically:
+## Get started
 
-    phonegap create my-app --template hello-world
+Install the dependencies...
 
-To see a list of other available PhoneGap templates:
+```bash
+cd svelte-phonegap
+npm install
+```
 
-    phonegap template list
+...then start [Rollup](https://rollupjs.org) / [Phonegap](https://http://docs.phonegap.com/references/phonegap-cli/):
+
+```bash
+npm run dev
+```
+
+Navigate to [localhost:3000](http://localhost:3000). You should see your app running. Edit a component file in `src`, save it, and watch your changes update automatically.
 
 ## [config.xml][config-xml]
 
@@ -67,3 +79,7 @@ Another good resource for generating a good CSP declaration is [CSP is Awesome][
 [cordova-plugin-whitelist]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist
 [cordova-plugin-whitelist-csp]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist#content-security-policy
 [csp-is-awesome]: http://cspisawesome.com
+
+## Deploying
+
+This section is currently untested. Because svelte builds the needed files on compile deploying this should follow any standard phonegap deployment process.
