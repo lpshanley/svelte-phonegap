@@ -28,6 +28,8 @@ npm install
 npm run dev
 ```
 
+**NOTE** The first time you run `npm run dev` will take MUCH longer than any subsequent runs. Phonegap-cli needs to create the `\platforms` and `\plugins` directories in your project. You will know that your project is ready once you start see a load of output from your console. Note that this can take 5-10 minutes depending on your PC and connection speed.
+
 Navigate to [localhost:3000](http://localhost:3000). You should see your app running. Edit a component file in `src`, save it, and watch your changes update automatically.
 
 ## [config.xml][config-xml]
