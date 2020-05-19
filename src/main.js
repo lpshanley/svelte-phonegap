@@ -1,10 +1,10 @@
 import App from './App.svelte';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
-});
-
-export default app;
+document.addEventListener("deviceready", function onReady() {
+		
+	window.app = new App({
+		target: document.body,
+		props: {}
+	});
+	
+}, false)
